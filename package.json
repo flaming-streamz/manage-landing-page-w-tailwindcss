@@ -1,0 +1,14 @@
+{
+  "name": "manage-landing-page",
+  "version": "1.0.0",
+  "description": "Landing page for Manage app landing website",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "scripts": {
+    "build": "tailwindcss -i ./main.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./main.css -o ./css/main.css --watch"
+  }
+}
